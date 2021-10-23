@@ -1,0 +1,126 @@
+#bg {
+    position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+}
+
+#bg img{
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    margin: auto; 
+    min-width: 50%;
+    min-height: 50%;
+}
+
+#layer {
+    background-image: url("https://images.unsplash.com/photo-1633114130148-3f40987134d2?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80");
+    color: white;
+padding: 20px;
+text-align: center;
+}
+
+#background {
+    background-color: teal;
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 16px;
+    border: 3px solid gray;
+    color: white;
+
+}
+
+#nav-bar {
+    padding: 16px;
+}
+#iconsss {
+    color: white;
+    font-size: 30px;
+    font-style: bold;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    padding: 8px;
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: yellow;
+}
+
+
+
+#about-me {
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+#img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+#portofolio{
+    margin-top: 100px;
+    text-align: center;
+}
+
+
+#project {
+ float: unset;
+ margin-top: 100px;
+ text-align: center;
+}
+
+#form {
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-bottom: 100px;
+}
+
+@media only screen and (max-width:600px) {
+    #video {
+        height: 200px;
+        width: 200px;
+    }
+}
+
+#box-config {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#box-config > div {
+    background-color: pink;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    padding: 30px;
+
+}
